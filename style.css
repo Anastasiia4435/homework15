@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e85c4b;
+}
+
+.button {
+  color: #801307;
+  background-color: white;
+  text-decoration: none;
+  display: flex;
+  width: 400px;
+  padding: 20px 40px;
+  font-size: 30px;
+  border-left: 15px solid #b43324;
+  font-family: "Lato", sans-serif;
+}
+
+.button:hover {
+  color: white;
+  background-color: #b43324;
+  border-left: 15px solid #fa8375;
+  transition: 0.5s;
+}
+
+.menu {
+  margin-top: 200px;
+  margin-left: 700px;
+}
